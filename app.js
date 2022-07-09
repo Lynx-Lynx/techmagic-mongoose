@@ -28,5 +28,5 @@ require('./config/error-handler')(app)
 const port = 4040;
 
 app.listen(port, () => {
-    console.log('Server is up and running on port numner ' + port);
+    console.log('Server is up and running on port number ' + port);
 });
